@@ -1,0 +1,59 @@
+# 应用配置 
+app: 
+  name: eNSP AI Assistant 
+  version: 0.1.0 
+
+# 设备连接默认参数 
+connection: 
+  device_type: huawei 
+  timeout: 30 
+  session_log: ./data/session_logs/ 
+  pool_size: 10 
+  retry_attempts: 3 
+  retry_delay: 2 
+
+# LLM配置 
+# provider 可选：
+# - openai           使用官方 OpenAI 接口
+# - openai_compatible 使用兼容 OpenAI 协议的国产/第三方云（需配置 base_url）
+# - local            使用本地大模型（例如 Ollama）
+llm: 
+  provider: openai 
+  model: gpt-3.5-turbo 
+  temperature: 0.2 
+  max_tokens: 1000 
+  api_key_env: OPENAI_API_KEY  # 从环境变量读取 
+  base_url: ""                  # OpenAI 兼容接口地址（例如 https://api.xxx.com/v1），为空则使用默认 
+
+# 预置模型选项（可在前端下拉选择，便于快速接入常见「零门槛/免费额度」模型）
+llm_presets:
+  - name: "自定义（使用 config.yaml 配置）"
+    provider: deepseek
+    model: gpt-3.5-turbo
+    api_key_env: OPENAI_API_KEY
+    base_url: ""
+
+  - name: "本地 Ollama 免费模型"
+    provider: local
+    model: llama3
+
+  - name: "OpenAI 兼容服务示例（可填国内/第三方免费服务）"
+    provider: openai_compatible
+    model: gpt-3.5-turbo
+    api_key_env: COMPATIBLE_API_KEY
+    base_url: ""  # 按服务商文档填写，例如 https://api.xxx.com/v1
+
+# 数据库 
+database: 
+  url: sqlite:///./data/ensp.db 
+
+# 拓扑发现 
+topology: 
+  discovery_interval: 300  # 自动发现间隔（秒） 
+  commands: 
+    - display interface brief 
+    - display ip interface brief 
+    - display arp 
+    - display mac-address 
+    - display lldp neighbor brief 
+    - display current-configuration | include sysname

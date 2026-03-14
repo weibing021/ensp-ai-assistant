@@ -1,0 +1,174 @@
+
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>display lldp local
+Error: Global LLDP is not enabled.
+<R4>
+<R4>
+<R4>
+<R4>system-view
+Enter system view, return user view with Ctrl+Z.
+[R4]
+[R4]lldp enable
+Info: Global LLDP is enabled successfully.
+[R4]
+[R4]quit
+<R4>
+<R4>
+<R4>
+<R4>
+Mar 14 2026 02:26:17-08:00 R4 LLDP/4/ENABLETRAP:OID: 16777216.50331648.100663296.16777216.67108864.16777216.3674669056.83886080.419430400.2248146944.33554432.16777216 Global LLDP is enabled.
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>display interface brief
+PHY: Physical
+*down: administratively down
+(l): loopback
+(s): spoofing
+(b): BFD down
+^down: standby
+(e): ETHOAM down
+(d): Dampening Suppressed
+InUti/OutUti: input utility/output utility
+Interface                   PHY   Protocol InUti OutUti   inErrors  outErrors
+Ethernet0/0/0               down  down        0%     0%          0          0
+Ethernet0/0/1               down  down        0%     0%          0          0
+Ethernet0/0/2               down  down        0%     0%          0          0
+Ethernet0/0/3               down  down        0%     0%          0          0
+Ethernet0/0/4               down  down        0%     0%          0          0
+Ethernet0/0/5               down  down        0%     0%          0          0
+Ethernet0/0/6               down  down        0%     0%          0          0
+Ethernet0/0/7               down  down        0%     0%          0          0
+GigabitEthernet0/0/0        down  down        0%     0%          0          0
+GigabitEthernet0/0/1        down  down        0%     0%          0          0
+LoopBack0                   up    up(s)       0%     0%          0          0
+NULL0                       up    up(s)       0%     0%          0          0
+Serial2/0/0                 up    up          0%     0%          0          0
+Serial2/0/1                 down  down        0%     0%          0          0
+<R4>
+<R4>
+<R4>
+<R4>display ip interface brief
+*down: administratively down
+^down: standby
+(l): loopback
+(s): spoofing
+The number of interface that is UP in Physical is 3
+The number of interface that is DOWN in Physical is 3
+The number of interface that is UP in Protocol is 3
+The number of interface that is DOWN in Protocol is 3
+
+Interface                         IP Address/Mask      Physical   Protocol  
+GigabitEthernet0/0/0              unassigned           down       down      
+GigabitEthernet0/0/1              unassigned           down       down      
+LoopBack0                         10.0.4.4/32          up         up(s)     
+NULL0                             unassigned           up         up(s)     
+Serial2/0/0                       10.0.14.4/24         up         up        
+Serial2/0/1                       unassigned           down       down      
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>display arp
+IP ADDRESS      MAC ADDRESS     EXPIRE(M) TYPE        INTERFACE   VPN-INSTANCE 
+                                          VLAN/CEVLAN PVC                      
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+Total:0         Dynamic:0       Static:0     Interface:0    
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>display mac-address
+-------------------------------------------------------------------------------
+MAC Address       VLAN/Bridge             Learned-From               Type      
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Total items displayed = 0 
+
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>display lldp neighbor brief
+Local Intf   Neighbor Dev             Neighbor Intf             Exptime
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>display current-configuration | include sysname
+ sysname R4
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>
+<R4>display current-configuration
+[V200R003C00]
+#
+ sysname R4
+#
+ board add 0/2 2SA 
+#
+ snmp-agent local-engineid 800007DB03000000000000
+ snmp-agent sys-info location 
+ snmp-agent 
+#
+ clock timezone China-Standard-Time minus 08:00:00
+#
+portal local-server load portalpage.zip
+#
+ drop illegal-mac alarm
+#
+stp disable
+#
+ lldp enable 
+#
+ wlan ac-global carrier id other ac id 0
+#
+ set cpu-usage threshold 80 restore 75
+#
+  ---- More ----[42D                                          [42Daaa 
+  ---- More ----[42D                                          [42D authentication-scheme default
+  ---- More ----[42D                                          [42D authorization-scheme default
+  ---- More ----[42D                                          [42D
+<R4>ir
+    ^
+Error: Unrecognized command found at '^' position.
+<R4>
+<R4>

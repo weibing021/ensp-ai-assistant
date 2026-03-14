@@ -1,0 +1,38 @@
+{
+  "nodes": {
+    "R4": {
+      "type": "device",
+      "hostname": "R5"
+    },
+    "R5": {
+      "type": "device",
+      "hostname": "R3"
+    },
+    "R1": {
+      "type": "device",
+      "hostname": "R4"
+    },
+    "R3": {
+      "type": "device",
+      "hostname": "R2"
+    },
+    "R2": {
+      "type": "device",
+      "hostname": "R1"
+    }
+  },
+  "edges": [
+    {
+      "source": "R4",
+      "target": "R2",
+      "local_port": "GE0/0/0",
+      "remote_port": "GE0/0/0"
+    },
+    {
+      "source": "R5",
+      "target": "R3",
+      "local_port": "GE0/0/0",
+      "remote_port": "GE0/0/0"
+    }
+  ]
+}

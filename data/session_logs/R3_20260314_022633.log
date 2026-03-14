@@ -1,0 +1,168 @@
+
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>display lldp local
+Error: Global LLDP is not enabled.
+<R2>
+<R2>
+<R2>
+<R2>system-view
+Enter system view, return user view with Ctrl+Z.
+[R2]
+[R2]lldp enable
+Info: Global LLDP is enabled successfully.
+[R2]
+[R2]quit
+<R2>
+<R2>
+<R2>
+<R2>
+Mar 14 2026 02:26:35-08:00 R2 LLDP/4/ENABLETRAP:OID: 16777216.50331648.100663296.16777216.67108864.16777216.3674669056.83886080.419430400.2248146944.33554432.16777216 Global LLDP is enabled.
+<R2>
+Mar 14 2026 02:26:37-08:00 R2 LLDP/4/NBRCHGTRAP:OID: 16777216.0.1646395392.16777216.16777216.33554432.0.0.16777216 Neighbor information is changed. (LldpStatsRemTablesInserts=16777216, LldpStatsRemTablesDeletes=0, LldpStatsRemTablesDrops=0, LldpStatsRemTablesAgeouts=0)
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>display interface brief
+PHY: Physical
+*down: administratively down
+(l): loopback
+(s): spoofing
+(b): BFD down
+^down: standby
+(e): ETHOAM down
+(d): Dampening Suppressed
+InUti/OutUti: input utility/output utility
+Interface                   PHY   Protocol InUti OutUti   inErrors  outErrors
+Ethernet0/0/0               down  down        0%     0%          0          0
+Ethernet0/0/1               down  down        0%     0%          0          0
+Ethernet0/0/2               down  down        0%     0%          0          0
+Ethernet0/0/3               down  down        0%     0%          0          0
+Ethernet0/0/4               down  down        0%     0%          0          0
+Ethernet0/0/5               down  down        0%     0%          0          0
+Ethernet0/0/6               down  down        0%     0%          0          0
+Ethernet0/0/7               down  down        0%     0%          0          0
+GigabitEthernet0/0/0        up    up          0%     0%          0          0
+GigabitEthernet0/0/1        down  down        0%     0%          0          0
+LoopBack0                   up    up(s)       0%     0%          0          0
+NULL0                       up    up(s)       0%     0%          0          0
+Serial2/0/0                 up    up          0%     0%          0          0
+Serial2/0/1                 up    up          0%     0%          0          0
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>display ip interface brief
+*down: administratively down
+^down: standby
+(l): loopback
+(s): spoofing
+The number of interface that is UP in Physical is 5
+The number of interface that is DOWN in Physical is 1
+The number of interface that is UP in Protocol is 5
+The number of interface that is DOWN in Protocol is 1
+
+Interface                         IP Address/Mask      Physical   Protocol  
+GigabitEthernet0/0/0              10.0.25.2/24         up         up        
+GigabitEthernet0/0/1              unassigned           down       down      
+LoopBack0                         10.0.2.2/32          up         up(s)     
+NULL0                             unassigned           up         up(s)     
+Serial2/0/0                       10.0.12.2/24         up         up        
+Serial2/0/1                       10.0.23.2/24         up         up        
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>display arp
+IP ADDRESS      MAC ADDRESS     EXPIRE(M) TYPE        INTERFACE   VPN-INSTANCE 
+                                          VLAN/CEVLAN PVC                      
+------------------------------------------------------------------------------
+10.0.25.2       00e0-fc22-572f            I -         GE0/0/0
+10.0.25.5       00e0-fc81-2322  15        D-0         GE0/0/0
+------------------------------------------------------------------------------
+Total:2         Dynamic:1       Static:0     Interface:1    
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>display mac-address
+-------------------------------------------------------------------------------
+MAC Address       VLAN/Bridge             Learned-From               Type      
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Total items displayed = 0 
+
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>display lldp neighbor brief
+Local Intf   Neighbor Dev             Neighbor Intf             Exptime
+GE0/0/0      R5                       GE0/0/0                   100    
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>display current-configuration | include sysname
+ sysname R2
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>dir
+Directory of flash:/
+
+  Idx  Attr     Size(Byte)  Date        Time(LMT)  FileName 
+    0  drw-              -  Mar 13 2026 18:20:57   dhcp
+    1  -rw-        121,802  May 26 2014 09:20:58   portalpage.zip
+    2  -rw-          2,263  Mar 13 2026 18:20:52   statemach.efs
+    3  -rw-        828,482  May 26 2014 09:20:58   sslvpn.zip
+    4  -rw-            867  Mar 13 2026 18:20:50   vrpcfg.zip
+
+1,090,732 KB total (784,460 KB free)
+<R2>
+<R2>

@@ -1,15 +1,4 @@
-## 产品简介
-
-**eNSP AI Assistant** 是面向华为 eNSP 实验环境的智能网络助手。  
-它可以理解你的自然语言配置意图，自动生成华为 VRP 配置命令，完成设备连接、批量下发、拓扑发现和故障诊断，并通过 Streamlit Web 界面提供可视化交互。
-
-典型使用场景：
-
-- 网络课程 / 实验室：快速搭建、修改 eNSP 拓扑配置。
-- 日常练习：用自然语言驱动 VRP 配置，减少命令记忆成本。
-- 故障排查：自动采集多设备信息，让 AI 辅助分析根因并给出修复建议。
-
-## Features
+## 核心特性（Features）
 
 - **自然语言 → 配置任务**  
   输入一句话描述你的需求（例如“在 R1 和 R2 之间配置 OSPF”），AI 自动解析为结构化任务清单，包含目标设备、动作类型与关键参数。
@@ -35,7 +24,7 @@
 
 - **拓扑信息采集与拓扑构建**  
   - 自动对多台设备执行关键信息采集命令（接口、IP、ARP、MAC、LLDP、sysname 等）。  
-  - 在拓扑发现前自动检查并尝试启用各设备的 LLDP 功能，提升链路识别准确度。  
+  - 在拓扑发现前自动检查并尝试启用各设备的 LLDP 功能，尽可能保证 LLDP 邻居信息可用。  
   - 基于采集结果构建 NetworkX 拓扑图，推断设备间链路。  
   - 支持保存 / 加载拓扑 JSON 数据，方便后续分析与展示。
 
@@ -59,43 +48,3 @@
   - 使用 SQLite 持久化设备列表与任务记录（预留）。  
   - 所有操作和错误记录到日志文件，便于排错与审计。
 
-## 项目结构
-
-- `src/`：核心逻辑（AI、连接、拓扑、执行、验证等）。  
-- `config/`：配置文件与 AI 提示词模板。  
-- `data/`：数据库、日志和生成的报告。  
-- `docs/`：产品说明和架构文档。  
-- `tests/`：单元测试（预留）。
-
-## 架构总览
-
-整体架构与模块划分可参考 `docs/ARCHITECTURE.md` 中的说明与 Mermaid 架构图，核心包括：
-
-- UI 层（Streamlit）：负责交互与页面。  
-- 连接层（DeviceManager + SessionPool）：负责设备连接和命令执行。  
-- AI 层（LLMClient, IntentParser, CommandGenerator, FaultDiagnosis）：负责意图解析、命令生成与故障诊断。  
-- 拓扑层（InfoCollector, TopologyBuilder, visualizer）：负责拓扑采集、构建和可视化。  
-- 执行与验证层（ConfigExecutor, Tester, Reporter, TaskScheduler）：负责配置下发、测试验证和报告生成。  
-- 基础设施层（DatabaseManager, logger, prompt_loader, CLIParser）：提供存储、日志、提示词和 CLI 解析等基础能力。
-
-## 使用流程
-
-1. 安装依赖：
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. 在 eNSP 中创建虚拟拓扑并开启 Telnet/串口映射。  
-3. 配置 `.env` 中的大模型 API Key（如使用 OpenAI）。  
-4. 启动应用：
-   ```bash
-   streamlit run src/main.py
-   ```
-5. 在 Web 页面中：
-   - 侧边栏添加设备并连接。  
-   - 在“指令解析与执行”中用自然语言描述需求并保存任务。  
-   - 在“任务执行与手动配置”中选择任务并一键下发或手动输入命令。  
-   - 在“故障分析排错”中描述故障现象，查看 AI 给出的诊断和修复建议。
-
-## License
-
-MIT

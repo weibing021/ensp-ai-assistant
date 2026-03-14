@@ -1,0 +1,1118 @@
+2026-03-14 00:15:50,674 - src.connection.device_manager - ERROR - Failed to connect to R1: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: huawei 127.0.0.1:2000
+
+
+2026-03-14 00:16:12,037 - src.connection.device_manager - ERROR - Failed to connect to R1: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: huawei 127.0.0.1:2000
+
+
+2026-03-14 00:16:35,691 - src.connection.device_manager - ERROR - Failed to connect to R1: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: huawei 127.0.0.1:2000
+
+
+2026-03-14 00:16:35,691 - src.topology.collector - WARNING - Failed to execute display interface brief on R1
+2026-03-14 00:16:37,744 - src.connection.device_manager - ERROR - Failed to connect to R1: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: huawei 127.0.0.1:2000
+
+
+2026-03-14 00:16:37,744 - src.topology.collector - WARNING - Failed to execute display ip interface brief on R1
+2026-03-14 00:16:39,796 - src.connection.device_manager - ERROR - Failed to connect to R1: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: huawei 127.0.0.1:2000
+
+
+2026-03-14 00:16:39,797 - src.topology.collector - WARNING - Failed to execute display arp on R1
+2026-03-14 00:16:41,837 - src.connection.device_manager - ERROR - Failed to connect to R1: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: huawei 127.0.0.1:2000
+
+
+2026-03-14 00:16:41,838 - src.topology.collector - WARNING - Failed to execute display mac-address on R1
+2026-03-14 00:16:43,890 - src.connection.device_manager - ERROR - Failed to connect to R1: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: huawei 127.0.0.1:2000
+
+
+2026-03-14 00:16:43,890 - src.topology.collector - WARNING - Failed to execute display lldp neighbor brief on R1
+2026-03-14 00:16:45,943 - src.connection.device_manager - ERROR - Failed to connect to R1: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: huawei 127.0.0.1:2000
+
+
+2026-03-14 00:16:45,943 - src.topology.collector - WARNING - Failed to execute display current-configuration | include sysname on R1
+2026-03-14 00:17:02,219 - src.connection.device_manager - ERROR - Failed to connect to R1: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: huawei 127.0.0.1:2000
+
+
+2026-03-14 00:17:25,765 - src.connection.device_manager - ERROR - Failed to connect to R1: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: huawei 127.0.0.1:2000
+
+
+2026-03-14 00:18:43,095 - src.connection.device_manager - ERROR - Failed to connect to R1: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: huawei 127.0.0.1:2000
+
+
+2026-03-14 00:22:15,853 - src.connection.device_manager - ERROR - Failed to connect to R1: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: huawei 127.0.0.1:2000
+
+
+2026-03-14 00:23:48,375 - src.connection.device_manager - INFO - Attempting huawei_telnet connection to 127.0.0.1:2000 (timeout=30)
+2026-03-14 00:23:50,421 - src.connection.device_manager - ERROR - Failed to connect to R1: [WinError 10061] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+2026-03-14 00:24:35,921 - src.connection.device_manager - INFO - Attempting huawei_telnet connection to 127.0.0.1:2000 (timeout=30)
+2026-03-14 00:24:45,933 - src.connection.device_manager - ERROR - Failed to connect to R1: 
+
+Pattern not detected: '(?:user:|username|login|user name)' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 00:25:16,595 - src.connection.device_manager - INFO - Attempting huawei_telnet connection to 127.0.0.1:2000 (timeout=30)
+2026-03-14 00:25:26,606 - src.connection.device_manager - ERROR - Failed to connect to R1: 
+
+Pattern not detected: '(?:user:|username|login|user name)' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 00:31:49,265 - src.connection.device_manager - INFO - Attempting huawei_telnet connection to 127.0.0.1:2000 (timeout=30)
+2026-03-14 00:31:59,267 - src.connection.device_manager - ERROR - Failed to connect to R1: 
+
+Pattern not detected: '(?:user:|username|login|user name)' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 00:35:25,776 - src.connection.device_manager - INFO - Attempting eNSP huawei_telnet connection to 127.0.0.1:2000 (No-Auth mode)
+2026-03-14 00:35:35,788 - src.connection.device_manager - ERROR - Failed to connect to R1: 
+
+Pattern not detected: '(?:user:|username|login|user name)' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 00:40:00,322 - src.connection.device_manager - INFO - Attempting eNSP terminal_server connection to 127.0.0.1:2000 (No-Auth mode)
+2026-03-14 00:40:02,355 - paramiko.transport - ERROR - Exception (client): Error reading SSH protocol banner
+2026-03-14 00:40:02,356 - paramiko.transport - ERROR - Traceback (most recent call last):
+2026-03-14 00:40:02,357 - paramiko.transport - ERROR -   File "C:\Users\Roy.wei\AppData\Local\Programs\Python\Python310\lib\site-packages\paramiko\transport.py", line 2363, in _check_banner
+2026-03-14 00:40:02,357 - paramiko.transport - ERROR -     buf = self.packetizer.readline(timeout)
+2026-03-14 00:40:02,357 - paramiko.transport - ERROR -   File "C:\Users\Roy.wei\AppData\Local\Programs\Python\Python310\lib\site-packages\paramiko\packet.py", line 395, in readline
+2026-03-14 00:40:02,357 - paramiko.transport - ERROR -     buf += self._read_timeout(timeout)
+2026-03-14 00:40:02,357 - paramiko.transport - ERROR -   File "C:\Users\Roy.wei\AppData\Local\Programs\Python\Python310\lib\site-packages\paramiko\packet.py", line 673, in _read_timeout
+2026-03-14 00:40:02,357 - paramiko.transport - ERROR -     raise socket.timeout()
+2026-03-14 00:40:02,357 - paramiko.transport - ERROR - TimeoutError
+2026-03-14 00:40:02,357 - paramiko.transport - ERROR - 
+2026-03-14 00:40:02,357 - paramiko.transport - ERROR - During handling of the above exception, another exception occurred:
+2026-03-14 00:40:02,357 - paramiko.transport - ERROR - 
+2026-03-14 00:40:02,357 - paramiko.transport - ERROR - Traceback (most recent call last):
+2026-03-14 00:40:02,359 - paramiko.transport - ERROR -   File "C:\Users\Roy.wei\AppData\Local\Programs\Python\Python310\lib\site-packages\paramiko\transport.py", line 2179, in run
+2026-03-14 00:40:02,359 - paramiko.transport - ERROR -     self._check_banner()
+2026-03-14 00:40:02,359 - paramiko.transport - ERROR -   File "C:\Users\Roy.wei\AppData\Local\Programs\Python\Python310\lib\site-packages\paramiko\transport.py", line 2367, in _check_banner
+2026-03-14 00:40:02,359 - paramiko.transport - ERROR -     raise SSHException(
+2026-03-14 00:40:02,359 - paramiko.transport - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2026-03-14 00:40:02,359 - paramiko.transport - ERROR - 
+2026-03-14 00:40:02,360 - src.connection.device_manager - ERROR - Failed to connect to R1: 
+A paramiko SSHException occurred during connection creation:
+
+Error reading SSH protocol banner
+
+
+2026-03-14 00:43:37,634 - src.connection.device_manager - INFO - Attempting eNSP terminal_server connection to 127.0.0.1:2000 (No-Auth mode)
+2026-03-14 00:43:37,791 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_4.0.0)
+2026-03-14 00:43:37,792 - paramiko.transport - ERROR - Exception (client): Invalid packet blocking
+2026-03-14 00:43:37,792 - paramiko.transport - ERROR - Traceback (most recent call last):
+2026-03-14 00:43:37,792 - paramiko.transport - ERROR -   File "C:\Users\Roy.wei\AppData\Local\Programs\Python\Python310\lib\site-packages\paramiko\transport.py", line 2195, in run
+2026-03-14 00:43:37,792 - paramiko.transport - ERROR -     ptype, m = self.packetizer.read_message()
+2026-03-14 00:43:37,793 - paramiko.transport - ERROR -   File "C:\Users\Roy.wei\AppData\Local\Programs\Python\Python310\lib\site-packages\paramiko\packet.py", line 544, in read_message
+2026-03-14 00:43:37,793 - paramiko.transport - ERROR -     raise SSHException("Invalid packet blocking")
+2026-03-14 00:43:37,793 - paramiko.transport - ERROR - paramiko.ssh_exception.SSHException: Invalid packet blocking
+2026-03-14 00:43:37,793 - paramiko.transport - ERROR - 
+2026-03-14 00:43:37,793 - src.connection.device_manager - ERROR - Failed to connect to R1: 
+A paramiko SSHException occurred during connection creation:
+
+Invalid packet blocking
+
+
+2026-03-14 00:44:29,835 - src.connection.device_manager - INFO - Attempting eNSP huawei_telnet connection to 127.0.0.1:2000 (No-Auth mode)
+2026-03-14 00:44:39,843 - src.connection.device_manager - ERROR - Failed to connect to R1: 
+
+Pattern not detected: '(?:user:|username|login|user name)' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 00:48:49,912 - src.connection.device_manager - INFO - Attempting eNSP huawei_telnet connection to 127.0.0.1:2000 (No-Auth mode)
+2026-03-14 00:48:59,918 - src.connection.device_manager - ERROR - Failed to connect to R1: 
+
+Pattern not detected: '(?:user:|username|login|user name)' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 00:52:53,566 - src.connection.device_manager - INFO - Attempting eNSP huawei_telnet connection to 127.0.0.1:2000 (No-Auth mode)
+2026-03-14 00:52:53,613 - src.connection.device_manager - INFO - Attempting eNSP huawei_telnet connection to 127.0.0.1:2000 (No-Auth mode)
+2026-03-14 00:53:03,578 - src.connection.device_manager - ERROR - Failed to connect to R1: 
+
+Pattern not detected: '(?:user:|username|login|user name)' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 00:53:03,648 - src.connection.device_manager - ERROR - Failed to connect to R1: 
+
+Pattern not detected: '(?:user:|username|login|user name)' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 01:06:10,053 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2000
+2026-03-14 01:06:10,155 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 01:06:11,228 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R1>
+2026-03-14 01:06:11,228 - src.connection.device_manager - INFO - Successfully connected to R1
+2026-03-14 01:06:25,877 - src.ai.intent_parser - ERROR - Intent parsing failed: '"device"'
+2026-03-14 01:06:45,636 - src.ai.intent_parser - ERROR - Intent parsing failed: '"device"'
+2026-03-14 01:06:48,651 - src.ai.intent_parser - ERROR - Intent parsing failed: '"device"'
+2026-03-14 01:07:44,453 - src.ai.intent_parser - ERROR - Intent parsing failed: '"device"'
+2026-03-14 01:07:46,846 - src.ai.intent_parser - ERROR - Intent parsing failed: '"device"'
+2026-03-14 01:07:47,062 - src.ai.intent_parser - ERROR - Intent parsing failed: '"device"'
+2026-03-14 01:07:47,282 - src.ai.intent_parser - ERROR - Intent parsing failed: '"device"'
+2026-03-14 01:12:24,058 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2000
+2026-03-14 01:12:24,161 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 01:12:25,375 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R1>
+2026-03-14 01:12:25,375 - src.connection.device_manager - INFO - Successfully connected to R1
+2026-03-14 01:12:49,374 - src.ai.intent_parser - ERROR - Intent parsing failed: 'ChatOpenAI' object has no attribute 'predict'
+2026-03-14 01:13:01,347 - src.ai.intent_parser - ERROR - Intent parsing failed: 'ChatOpenAI' object has no attribute 'predict'
+2026-03-14 01:18:51,923 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2001
+2026-03-14 01:18:52,026 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 01:18:53,238 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R2>
+2026-03-14 01:18:53,238 - src.connection.device_manager - INFO - Successfully connected to R2
+2026-03-14 01:18:57,582 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2002
+2026-03-14 01:18:57,684 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 01:18:58,896 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R3>
+2026-03-14 01:18:58,896 - src.connection.device_manager - INFO - Successfully connected to R3
+2026-03-14 01:20:10,270 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2000
+2026-03-14 01:20:10,371 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 01:20:11,533 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R1>
+2026-03-14 01:20:11,533 - src.connection.device_manager - INFO - Successfully connected to R1
+2026-03-14 01:25:10,871 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2000
+2026-03-14 01:25:10,984 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 01:25:12,146 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R1>
+2026-03-14 01:25:12,146 - src.connection.device_manager - INFO - Successfully connected to R1
+2026-03-14 01:25:41,080 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2001
+2026-03-14 01:25:41,183 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 01:25:42,395 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R2>
+2026-03-14 01:25:42,395 - src.connection.device_manager - INFO - Successfully connected to R2
+2026-03-14 01:25:56,856 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2002
+2026-03-14 01:25:56,958 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 01:25:58,169 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R3>
+2026-03-14 01:25:58,169 - src.connection.device_manager - INFO - Successfully connected to R3
+2026-03-14 01:30:49,579 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2000
+2026-03-14 01:30:49,681 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 01:30:50,853 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R1>
+2026-03-14 01:30:50,853 - src.connection.device_manager - INFO - Successfully connected to R1
+2026-03-14 01:31:12,673 - src.ai.intent_parser - ERROR - Intent parsing failed: 'ChatOpenAI' object has no attribute 'predict'
+2026-03-14 01:34:22,045 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2000
+2026-03-14 01:34:22,148 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 01:34:23,360 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R1>
+2026-03-14 01:34:23,360 - src.connection.device_manager - INFO - Successfully connected to R1
+2026-03-14 01:34:38,921 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 01:34:38,922 - openai._base_client - INFO - Retrying request to /chat/completions in 0.444919 seconds
+2026-03-14 01:34:40,011 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 01:34:40,012 - openai._base_client - INFO - Retrying request to /chat/completions in 0.808026 seconds
+2026-03-14 01:34:41,571 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 01:34:41,572 - src.ai.intent_parser - ERROR - Intent parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-03-14 01:48:07,415 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2001
+2026-03-14 01:48:07,518 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 01:48:08,730 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R2>
+2026-03-14 01:48:08,730 - src.connection.device_manager - INFO - Successfully connected to R2
+2026-03-14 01:51:53,419 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2000
+2026-03-14 01:51:53,521 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 01:51:54,732 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R1>
+2026-03-14 01:51:54,732 - src.connection.device_manager - INFO - Successfully connected to R1
+2026-03-14 02:04:32,983 - src.connection.device_manager - ERROR - Config on R1 failed: Failed to exit configuration mode
+2026-03-14 02:05:01,428 - src.connection.device_manager - ERROR - Config on R1 failed: 
+
+Pattern not detected: 'dis\\ cu' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:05:31,583 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2001
+2026-03-14 02:05:31,686 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 02:05:32,897 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R2>
+2026-03-14 02:05:32,897 - src.connection.device_manager - INFO - Successfully connected to R2
+2026-03-14 02:05:39,769 - src.connection.device_manager - ERROR - Config on R2 failed: Failed to exit configuration mode
+2026-03-14 02:08:03,069 - src.topology.builder - ERROR - Topology file ./data\topology.json not found
+2026-03-14 02:10:13,807 - src.topology.builder - ERROR - Topology file ./data\topology.json not found
+2026-03-14 02:10:23,496 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2000
+2026-03-14 02:10:23,497 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2001
+2026-03-14 02:10:23,497 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2002
+2026-03-14 02:10:23,599 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 02:10:23,599 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 02:10:23,599 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 02:10:24,672 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R1>
+2026-03-14 02:10:24,672 - src.connection.device_manager - INFO - Successfully connected to R1
+2026-03-14 02:10:24,814 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R3>
+2026-03-14 02:10:24,814 - src.connection.device_manager - INFO - Successfully connected to R3
+2026-03-14 02:10:24,851 - src.connection.device_manager - INFO - Device woke up. Current prompt: ---- More ----
+2026-03-14 02:10:24,851 - src.connection.device_manager - INFO - Successfully connected to R2
+2026-03-14 02:10:35,225 - src.connection.device_manager - ERROR - Command 'display interface brief' on R2 failed: 
+
+Pattern not detected: 'display\\ interface\\ brief' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:10:42,788 - src.topology.builder - INFO - Topology saved to ./data\topology.json
+2026-03-14 02:11:18,476 - src.connection.device_manager - ERROR - Config on R2 failed: Failed to exit configuration mode
+2026-03-14 02:11:33,841 - src.connection.device_manager - ERROR - Command 'display current-configuration' on R1 failed: 
+Pattern not detected: '<R1>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:17:35,889 - src.topology.builder - INFO - Topology loaded from ./data\topology.json
+2026-03-14 02:17:50,651 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2000
+2026-03-14 02:17:50,753 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 02:17:51,827 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R1>
+2026-03-14 02:17:51,827 - src.connection.device_manager - INFO - Successfully connected to R1
+2026-03-14 02:18:02,200 - src.connection.device_manager - ERROR - Command 'display lldp local' on R1 failed: 
+Pattern not detected: '<R1>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:18:02,201 - src.connection.device_manager - INFO - Enabling LLDP globally on R1 ...
+2026-03-14 02:18:19,409 - src.connection.device_manager - ERROR - Config on R1 failed: 
+
+Pattern not detected: 'system\\-view' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:18:19,409 - src.connection.device_manager - ERROR - Failed to enable LLDP on R1
+2026-03-14 02:18:19,410 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2001
+2026-03-14 02:18:19,513 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 02:18:20,906 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R2>
+2026-03-14 02:18:20,906 - src.connection.device_manager - INFO - Successfully connected to R2
+2026-03-14 02:18:21,169 - src.connection.device_manager - INFO - Enabling LLDP globally on R2 ...
+2026-03-14 02:18:30,265 - src.connection.device_manager - ERROR - Config on R2 failed: Failed to exit configuration mode
+2026-03-14 02:18:30,265 - src.connection.device_manager - ERROR - Failed to enable LLDP on R2
+2026-03-14 02:18:30,266 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2002
+2026-03-14 02:18:30,368 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 02:18:31,442 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R3>
+2026-03-14 02:18:31,442 - src.connection.device_manager - INFO - Successfully connected to R3
+2026-03-14 02:18:31,850 - src.connection.device_manager - INFO - Enabling LLDP globally on R3 ...
+2026-03-14 02:18:40,932 - src.connection.device_manager - ERROR - Config on R3 failed: Failed to exit configuration mode
+2026-03-14 02:18:40,932 - src.connection.device_manager - ERROR - Failed to enable LLDP on R3
+2026-03-14 02:18:49,369 - src.topology.builder - INFO - Topology saved to ./data\topology.json
+2026-03-14 02:21:21,822 - src.connection.device_manager - ERROR - Command 'display lldp local' on R1 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:21,822 - src.connection.device_manager - INFO - Enabling LLDP globally on R1 ...
+2026-03-14 02:21:21,823 - src.connection.device_manager - ERROR - Config on R1 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:21,823 - src.connection.device_manager - ERROR - Failed to enable LLDP on R1
+2026-03-14 02:21:21,837 - src.connection.device_manager - ERROR - Command 'display lldp local' on R2 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:21,837 - src.connection.device_manager - INFO - Enabling LLDP globally on R2 ...
+2026-03-14 02:21:21,837 - src.connection.device_manager - ERROR - Config on R2 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:21,838 - src.connection.device_manager - ERROR - Failed to enable LLDP on R2
+2026-03-14 02:21:21,851 - src.connection.device_manager - ERROR - Command 'display lldp local' on R3 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:21,851 - src.connection.device_manager - INFO - Enabling LLDP globally on R3 ...
+2026-03-14 02:21:21,851 - src.connection.device_manager - ERROR - Config on R3 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:21,852 - src.connection.device_manager - ERROR - Failed to enable LLDP on R3
+2026-03-14 02:21:21,853 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2003
+2026-03-14 02:21:21,912 - src.connection.device_manager - ERROR - Command 'display lldp local' on R1 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:21,912 - src.connection.device_manager - INFO - Enabling LLDP globally on R1 ...
+2026-03-14 02:21:21,912 - src.connection.device_manager - ERROR - Config on R1 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:21,912 - src.connection.device_manager - ERROR - Failed to enable LLDP on R1
+2026-03-14 02:21:21,924 - src.connection.device_manager - ERROR - Command 'display lldp local' on R2 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:21,924 - src.connection.device_manager - INFO - Enabling LLDP globally on R2 ...
+2026-03-14 02:21:21,925 - src.connection.device_manager - ERROR - Config on R2 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:21,925 - src.connection.device_manager - ERROR - Failed to enable LLDP on R2
+2026-03-14 02:21:21,937 - src.connection.device_manager - ERROR - Command 'display lldp local' on R3 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:21,938 - src.connection.device_manager - INFO - Enabling LLDP globally on R3 ...
+2026-03-14 02:21:21,938 - src.connection.device_manager - ERROR - Config on R3 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:21,938 - src.connection.device_manager - ERROR - Failed to enable LLDP on R3
+2026-03-14 02:21:21,939 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2003
+2026-03-14 02:21:21,955 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 02:21:22,041 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 02:21:23,026 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R5>
+2026-03-14 02:21:23,026 - src.connection.device_manager - INFO - Successfully connected to R4
+2026-03-14 02:21:23,441 - src.connection.device_manager - INFO - Enabling LLDP globally on R4 ...
+2026-03-14 02:21:24,407 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R5>
+2026-03-14 02:21:24,407 - src.connection.device_manager - INFO - Successfully connected to R4
+2026-03-14 02:21:24,582 - src.connection.device_manager - INFO - Enabling LLDP globally on R4 ...
+2026-03-14 02:21:33,683 - src.connection.device_manager - ERROR - Config on R4 failed: Failed to exit configuration mode
+2026-03-14 02:21:33,683 - src.connection.device_manager - ERROR - Failed to enable LLDP on R4
+2026-03-14 02:21:33,685 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2004
+2026-03-14 02:21:33,787 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 02:21:34,249 - src.connection.device_manager - ERROR - Config on R4 failed: 
+
+read_channel_timing's absolute timer expired.
+
+The network device was continually outputting data for longer than 10.0
+seconds.
+
+If this is expected i.e. the command you are executing is continually emitting
+data for a long period of time, then you can set 'read_timeout=x' seconds. If
+you want Netmiko to keep reading indefinitely (i.e. to only stop when there is
+no new data), then you can set 'read_timeout=0'.
+
+You can look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:21:34,251 - src.connection.device_manager - ERROR - Failed to enable LLDP on R4
+2026-03-14 02:21:34,997 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R3>
+2026-03-14 02:21:34,997 - src.connection.device_manager - INFO - Successfully connected to R5
+2026-03-14 02:21:35,282 - src.connection.device_manager - INFO - Enabling LLDP globally on R5 ...
+2026-03-14 02:21:42,164 - src.connection.device_manager - ERROR - Config on R5 failed: Failed to exit configuration mode
+2026-03-14 02:21:42,164 - src.connection.device_manager - ERROR - Failed to enable LLDP on R5
+2026-03-14 02:21:42,177 - src.connection.device_manager - ERROR - Command 'display interface brief' on R1 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:42,177 - src.connection.device_manager - ERROR - Command 'display interface brief' on R2 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:42,178 - src.connection.device_manager - ERROR - Command 'display interface brief' on R3 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:42,189 - src.connection.device_manager - ERROR - Command 'display ip interface brief' on R2 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:42,189 - src.connection.device_manager - ERROR - Command 'display ip interface brief' on R1 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:42,190 - src.connection.device_manager - ERROR - Command 'display ip interface brief' on R3 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:42,201 - src.connection.device_manager - ERROR - Command 'display arp' on R2 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:42,201 - src.connection.device_manager - ERROR - Command 'display arp' on R1 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:42,202 - src.connection.device_manager - ERROR - Command 'display arp' on R3 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:42,214 - src.connection.device_manager - ERROR - Command 'display mac-address' on R2 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:42,214 - src.connection.device_manager - ERROR - Command 'display mac-address' on R3 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:42,214 - src.connection.device_manager - ERROR - Command 'display mac-address' on R1 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:42,226 - src.connection.device_manager - ERROR - Command 'display lldp neighbor brief' on R3 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:42,226 - src.connection.device_manager - ERROR - Command 'display lldp neighbor brief' on R1 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:42,226 - src.connection.device_manager - ERROR - Command 'display lldp neighbor brief' on R2 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:42,238 - src.connection.device_manager - ERROR - Command 'display current-configuration | include sysname' on R3 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:42,239 - src.connection.device_manager - ERROR - Command 'display current-configuration | include sysname' on R2 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:21:42,239 - src.connection.device_manager - ERROR - Command 'display current-configuration | include sysname' on R1 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:22:11,638 - src.connection.device_manager - ERROR - Command 'display lldp local' on R1 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:22:11,639 - src.connection.device_manager - INFO - Enabling LLDP globally on R1 ...
+2026-03-14 02:22:11,639 - src.connection.device_manager - ERROR - Config on R1 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:22:11,639 - src.connection.device_manager - ERROR - Failed to enable LLDP on R1
+2026-03-14 02:22:11,651 - src.connection.device_manager - ERROR - Command 'display lldp local' on R2 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:22:11,652 - src.connection.device_manager - INFO - Enabling LLDP globally on R2 ...
+2026-03-14 02:22:11,652 - src.connection.device_manager - ERROR - Config on R2 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:22:11,653 - src.connection.device_manager - ERROR - Failed to enable LLDP on R2
+2026-03-14 02:22:11,665 - src.connection.device_manager - ERROR - Command 'display lldp local' on R3 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:22:11,665 - src.connection.device_manager - INFO - Enabling LLDP globally on R3 ...
+2026-03-14 02:22:11,665 - src.connection.device_manager - ERROR - Config on R3 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:22:11,665 - src.connection.device_manager - ERROR - Failed to enable LLDP on R3
+2026-03-14 02:22:21,891 - src.connection.device_manager - ERROR - Command 'display lldp local' on R4 failed: 
+Pattern not detected: '<R5>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:22:21,891 - src.connection.device_manager - INFO - Enabling LLDP globally on R4 ...
+2026-03-14 02:22:39,097 - src.connection.device_manager - ERROR - Config on R4 failed: 
+
+Pattern not detected: 'system\\-view' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:22:39,098 - src.connection.device_manager - ERROR - Failed to enable LLDP on R4
+2026-03-14 02:22:49,339 - src.connection.device_manager - ERROR - Command 'display lldp local' on R5 failed: 
+Pattern not detected: '<R3>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:22:49,339 - src.connection.device_manager - INFO - Enabling LLDP globally on R5 ...
+2026-03-14 02:23:06,549 - src.connection.device_manager - ERROR - Config on R5 failed: 
+
+Pattern not detected: 'system\\-view' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:23:06,550 - src.connection.device_manager - ERROR - Failed to enable LLDP on R5
+2026-03-14 02:23:06,564 - src.connection.device_manager - ERROR - Command 'display interface brief' on R3 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:23:06,564 - src.connection.device_manager - ERROR - Command 'display interface brief' on R1 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:23:06,564 - src.connection.device_manager - ERROR - Command 'display interface brief' on R2 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:23:06,577 - src.connection.device_manager - ERROR - Command 'display ip interface brief' on R1 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:23:06,577 - src.connection.device_manager - ERROR - Command 'display ip interface brief' on R3 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:23:06,577 - src.connection.device_manager - ERROR - Command 'display ip interface brief' on R2 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:23:06,589 - src.connection.device_manager - ERROR - Command 'display arp' on R2 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:23:06,589 - src.connection.device_manager - ERROR - Command 'display arp' on R1 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:23:06,589 - src.connection.device_manager - ERROR - Command 'display arp' on R3 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:23:06,601 - src.connection.device_manager - ERROR - Command 'display mac-address' on R2 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:23:06,601 - src.connection.device_manager - ERROR - Command 'display mac-address' on R3 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:23:06,601 - src.connection.device_manager - ERROR - Command 'display mac-address' on R1 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:23:06,613 - src.connection.device_manager - ERROR - Command 'display lldp neighbor brief' on R2 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:23:06,613 - src.connection.device_manager - ERROR - Command 'display lldp neighbor brief' on R3 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:23:06,614 - src.connection.device_manager - ERROR - Command 'display lldp neighbor brief' on R1 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:23:06,625 - src.connection.device_manager - ERROR - Command 'display current-configuration | include sysname' on R2 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:23:06,625 - src.connection.device_manager - ERROR - Command 'display current-configuration | include sysname' on R1 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:23:06,625 - src.connection.device_manager - ERROR - Command 'display current-configuration | include sysname' on R3 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:23:41,366 - src.connection.device_manager - ERROR - Command 'display lldp local' on R4 failed: 
+Pattern not detected: '<R5>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:23:41,366 - src.connection.device_manager - INFO - Enabling LLDP globally on R4 ...
+2026-03-14 02:23:58,574 - src.connection.device_manager - ERROR - Config on R4 failed: 
+
+Pattern not detected: 'system\\-view' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:23:58,575 - src.connection.device_manager - ERROR - Failed to enable LLDP on R4
+2026-03-14 02:24:08,955 - src.connection.device_manager - ERROR - Command 'display lldp local' on R5 failed: 
+Pattern not detected: '<R3>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:24:08,956 - src.connection.device_manager - INFO - Enabling LLDP globally on R5 ...
+2026-03-14 02:24:26,168 - src.connection.device_manager - ERROR - Config on R5 failed: 
+
+Pattern not detected: 'system\\-view' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:24:26,169 - src.connection.device_manager - ERROR - Failed to enable LLDP on R5
+2026-03-14 02:24:34,891 - src.topology.builder - INFO - Topology saved to ./data\topology.json
+2026-03-14 02:25:08,323 - src.connection.device_manager - ERROR - Command 'dis cu' on R1 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:25:08,323 - src.connection.device_manager - ERROR - Command 'dis cu' on R2 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:25:08,324 - src.connection.device_manager - ERROR - Command 'dis cu' on R3 failed: [WinError 10054] ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+2026-03-14 02:25:18,474 - src.connection.device_manager - ERROR - Command 'dis cu' on R4 failed: 
+Pattern not detected: '<R5>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:25:18,579 - src.connection.device_manager - ERROR - Command 'dis cu' on R5 failed: 
+Pattern not detected: '<R3>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:25:47,105 - src.topology.builder - INFO - Topology loaded from ./data\topology.json
+2026-03-14 02:26:16,140 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2000
+2026-03-14 02:26:16,244 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 02:26:17,316 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R4>
+2026-03-14 02:26:17,316 - src.connection.device_manager - INFO - Successfully connected to R1
+2026-03-14 02:26:17,724 - src.connection.device_manager - INFO - Enabling LLDP globally on R1 ...
+2026-03-14 02:26:24,607 - src.connection.device_manager - ERROR - Config on R1 failed: Failed to exit configuration mode
+2026-03-14 02:26:24,607 - src.connection.device_manager - ERROR - Failed to enable LLDP on R1
+2026-03-14 02:26:24,608 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2001
+2026-03-14 02:26:24,711 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 02:26:25,959 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R1>
+2026-03-14 02:26:25,959 - src.connection.device_manager - INFO - Successfully connected to R2
+2026-03-14 02:26:26,366 - src.connection.device_manager - INFO - Enabling LLDP globally on R2 ...
+2026-03-14 02:26:33,249 - src.connection.device_manager - ERROR - Config on R2 failed: Failed to exit configuration mode
+2026-03-14 02:26:33,249 - src.connection.device_manager - ERROR - Failed to enable LLDP on R2
+2026-03-14 02:26:33,250 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2002
+2026-03-14 02:26:33,352 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 02:26:34,425 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R2>
+2026-03-14 02:26:34,425 - src.connection.device_manager - INFO - Successfully connected to R3
+2026-03-14 02:26:34,833 - src.connection.device_manager - INFO - Enabling LLDP globally on R3 ...
+2026-03-14 02:26:43,922 - src.connection.device_manager - ERROR - Config on R3 failed: Failed to exit configuration mode
+2026-03-14 02:26:43,922 - src.connection.device_manager - ERROR - Failed to enable LLDP on R3
+2026-03-14 02:26:43,923 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2003
+2026-03-14 02:26:44,026 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 02:26:45,320 - src.connection.device_manager - INFO - Device woke up. Current prompt: [42D                                          [42D
+2026-03-14 02:26:45,320 - src.connection.device_manager - INFO - Successfully connected to R4
+2026-03-14 02:26:55,370 - src.connection.device_manager - ERROR - Command 'display lldp local' on R4 failed: 
+
+Pattern not detected: 'display\\ lldp\\ local' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:26:55,370 - src.connection.device_manager - INFO - Enabling LLDP globally on R4 ...
+2026-03-14 02:27:02,094 - src.connection.device_manager - ERROR - Config on R4 failed: Failed to exit configuration mode
+2026-03-14 02:27:02,094 - src.connection.device_manager - ERROR - Failed to enable LLDP on R4
+2026-03-14 02:27:02,095 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2004
+2026-03-14 02:27:02,197 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 02:27:03,358 - src.connection.device_manager - INFO - Device woke up. Current prompt: ---- More ----[42D                                          [42D
+2026-03-14 02:27:03,358 - src.connection.device_manager - INFO - Successfully connected to R5
+2026-03-14 02:27:13,655 - src.connection.device_manager - ERROR - Command 'display lldp local' on R5 failed: 
+
+Pattern not detected: 'display\\ lldp\\ local' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:27:13,655 - src.connection.device_manager - INFO - Enabling LLDP globally on R5 ...
+2026-03-14 02:27:20,380 - src.connection.device_manager - ERROR - Config on R5 failed: Failed to exit configuration mode
+2026-03-14 02:27:20,380 - src.connection.device_manager - ERROR - Failed to enable LLDP on R5
+2026-03-14 02:27:29,558 - src.topology.builder - INFO - Topology saved to ./data\topology.json
+2026-03-14 02:28:17,933 - src.connection.device_manager - ERROR - Command 'display current-configuration' on R1 failed: 
+Pattern not detected: '<R4>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:28:38,244 - src.connection.device_manager - ERROR - Command 'dir' on R1 failed: 
+
+Pattern not detected: 'dir' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:53:49,094 - src.topology.builder - INFO - Topology loaded from ./data\topology.json
+2026-03-14 02:54:10,288 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 02:54:10,288 - openai._base_client - INFO - Retrying request to /chat/completions in 0.445802 seconds
+2026-03-14 02:54:11,542 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 02:54:11,543 - openai._base_client - INFO - Retrying request to /chat/completions in 0.860606 seconds
+2026-03-14 02:54:13,009 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 02:54:13,011 - src.ai.intent_parser - ERROR - Intent parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-03-14 02:54:25,777 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 02:54:25,777 - openai._base_client - INFO - Retrying request to /chat/completions in 0.422390 seconds
+2026-03-14 02:54:26,426 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 02:54:26,426 - openai._base_client - INFO - Retrying request to /chat/completions in 0.803205 seconds
+2026-03-14 02:54:28,024 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 02:54:28,027 - src.ai.intent_parser - ERROR - Intent parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-03-14 02:54:35,324 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2000
+2026-03-14 02:54:35,324 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2001
+2026-03-14 02:54:35,324 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2002
+2026-03-14 02:54:35,325 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2003
+2026-03-14 02:54:35,325 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2004
+2026-03-14 02:54:35,427 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 02:54:35,431 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 02:54:35,431 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 02:54:35,432 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 02:54:35,432 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 02:54:36,588 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R4>
+2026-03-14 02:54:36,588 - src.connection.device_manager - INFO - Successfully connected to R1
+2026-03-14 02:54:36,590 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R1>
+2026-03-14 02:54:36,590 - src.connection.device_manager - INFO - Successfully connected to R2
+2026-03-14 02:54:36,641 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R2>
+2026-03-14 02:54:36,641 - src.connection.device_manager - INFO - Successfully connected to R3
+2026-03-14 02:54:36,642 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R3>
+2026-03-14 02:54:36,642 - src.connection.device_manager - INFO - Successfully connected to R5
+2026-03-14 02:54:36,643 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R5>
+2026-03-14 02:54:36,643 - src.connection.device_manager - INFO - Successfully connected to R4
+2026-03-14 02:54:37,677 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 02:54:37,677 - openai._base_client - INFO - Retrying request to /chat/completions in 0.489146 seconds
+2026-03-14 02:54:38,962 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 02:54:38,963 - openai._base_client - INFO - Retrying request to /chat/completions in 0.904847 seconds
+2026-03-14 02:54:40,948 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 02:54:40,949 - src.ai.fault_diagnosis - ERROR - Fault diagnosis failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-03-14 02:55:00,224 - src.connection.device_manager - ERROR - Command 'display lldp local' on R1 failed: 
+Pattern not detected: '<R4>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:55:00,224 - src.connection.device_manager - INFO - Enabling LLDP globally on R1 ...
+2026-03-14 02:55:17,628 - src.connection.device_manager - ERROR - Config on R1 failed: 
+
+Pattern not detected: 'system\\-view' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:55:17,629 - src.connection.device_manager - ERROR - Failed to enable LLDP on R1
+2026-03-14 02:55:28,008 - src.connection.device_manager - ERROR - Command 'display lldp local' on R2 failed: 
+Pattern not detected: '<R1>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:55:28,008 - src.connection.device_manager - INFO - Enabling LLDP globally on R2 ...
+2026-03-14 02:55:45,216 - src.connection.device_manager - ERROR - Config on R2 failed: 
+
+Pattern not detected: 'system\\-view' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:55:45,216 - src.connection.device_manager - ERROR - Failed to enable LLDP on R2
+2026-03-14 02:55:55,365 - src.connection.device_manager - ERROR - Command 'display lldp local' on R3 failed: 
+Pattern not detected: '<R2>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:55:55,366 - src.connection.device_manager - INFO - Enabling LLDP globally on R3 ...
+2026-03-14 02:56:12,777 - src.connection.device_manager - ERROR - Config on R3 failed: 
+
+Pattern not detected: 'system\\-view' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:56:12,777 - src.connection.device_manager - ERROR - Failed to enable LLDP on R3
+2026-03-14 02:56:23,091 - src.connection.device_manager - ERROR - Command 'display lldp local' on R4 failed: 
+Pattern not detected: '<R5>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:56:23,091 - src.connection.device_manager - INFO - Enabling LLDP globally on R4 ...
+2026-03-14 02:56:40,297 - src.connection.device_manager - ERROR - Config on R4 failed: 
+
+Pattern not detected: 'system\\-view' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:56:40,297 - src.connection.device_manager - ERROR - Failed to enable LLDP on R4
+2026-03-14 02:56:50,504 - src.connection.device_manager - ERROR - Command 'display lldp local' on R5 failed: 
+Pattern not detected: '<R3>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:56:50,504 - src.connection.device_manager - INFO - Enabling LLDP globally on R5 ...
+2026-03-14 02:57:07,709 - src.connection.device_manager - ERROR - Config on R5 failed: 
+
+Pattern not detected: 'system\\-view' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 02:57:07,709 - src.connection.device_manager - ERROR - Failed to enable LLDP on R5
+2026-03-14 02:57:16,913 - src.topology.builder - INFO - Topology saved to ./data\topology.json
+2026-03-14 03:00:47,346 - src.topology.builder - ERROR - Error loading topology: Expecting value: line 1 column 1 (char 0)
+2026-03-14 03:00:59,720 - src.topology.builder - ERROR - Error loading topology: Expecting value: line 1 column 1 (char 0)
+2026-03-14 03:01:06,880 - src.topology.builder - ERROR - Error loading topology: Expecting value: line 1 column 1 (char 0)
+2026-03-14 03:01:48,869 - src.ai.intent_parser - ERROR - Intent parsing failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£"))
+2026-03-14 03:02:07,277 - src.ai.intent_parser - ERROR - Intent parsing failed: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£"))
+2026-03-14 03:02:13,334 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 03:02:13,335 - openai._base_client - INFO - Retrying request to /chat/completions in 0.458837 seconds
+2026-03-14 03:02:14,030 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 03:02:14,031 - openai._base_client - INFO - Retrying request to /chat/completions in 0.873601 seconds
+2026-03-14 03:02:15,138 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 03:02:15,138 - src.ai.intent_parser - ERROR - Intent parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-03-14 03:02:20,021 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 03:02:20,022 - openai._base_client - INFO - Retrying request to /chat/completions in 0.478199 seconds
+2026-03-14 03:02:20,741 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 03:02:20,741 - openai._base_client - INFO - Retrying request to /chat/completions in 0.955725 seconds
+2026-03-14 03:02:21,946 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 03:02:21,946 - src.ai.intent_parser - ERROR - Intent parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-03-14 03:03:07,809 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 03:03:07,809 - openai._base_client - INFO - Retrying request to /chat/completions in 0.458275 seconds
+2026-03-14 03:03:08,499 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 03:03:08,499 - openai._base_client - INFO - Retrying request to /chat/completions in 0.824340 seconds
+2026-03-14 03:03:09,543 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 03:03:09,544 - src.ai.intent_parser - ERROR - Intent parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-03-14 03:04:09,019 - src.topology.builder - ERROR - Error loading topology: Expecting value: line 1 column 1 (char 0)
+2026-03-14 03:04:17,822 - src.topology.builder - ERROR - Error loading topology: Expecting value: line 1 column 1 (char 0)
+2026-03-14 03:07:12,801 - src.topology.builder - ERROR - Error loading topology: Expecting value: line 1 column 1 (char 0)
+2026-03-14 03:07:20,572 - src.topology.builder - ERROR - Error loading topology: Expecting value: line 1 column 1 (char 0)
+2026-03-14 03:13:26,610 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2000
+2026-03-14 03:13:26,714 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 03:13:27,927 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R4>
+2026-03-14 03:13:27,927 - src.connection.device_manager - INFO - Successfully connected to R1
+2026-03-14 03:13:38,180 - src.connection.device_manager - ERROR - Command 'display lldp local' on R1 failed: 
+Pattern not detected: '<R4>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 03:13:38,180 - src.connection.device_manager - INFO - Enabling LLDP globally on R1 ...
+2026-03-14 03:13:55,390 - src.connection.device_manager - ERROR - Config on R1 failed: 
+
+Pattern not detected: 'system\\-view' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 03:13:55,390 - src.connection.device_manager - ERROR - Failed to enable LLDP on R1
+2026-03-14 03:13:55,391 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2001
+2026-03-14 03:13:55,504 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 03:13:56,666 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R1>
+2026-03-14 03:13:56,666 - src.connection.device_manager - INFO - Successfully connected to R2
+2026-03-14 03:14:06,916 - src.connection.device_manager - ERROR - Command 'display lldp local' on R2 failed: 
+Pattern not detected: '<R1>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 03:14:06,916 - src.connection.device_manager - INFO - Enabling LLDP globally on R2 ...
+2026-03-14 03:14:24,130 - src.connection.device_manager - ERROR - Config on R2 failed: 
+
+Pattern not detected: 'system\\-view' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 03:14:24,130 - src.connection.device_manager - ERROR - Failed to enable LLDP on R2
+2026-03-14 03:14:24,131 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2002
+2026-03-14 03:14:24,234 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 03:14:25,627 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R2>
+2026-03-14 03:14:25,627 - src.connection.device_manager - INFO - Successfully connected to R3
+2026-03-14 03:14:35,700 - src.connection.device_manager - ERROR - Command 'display lldp local' on R3 failed: 
+Pattern not detected: '<R2>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 03:14:35,700 - src.connection.device_manager - INFO - Enabling LLDP globally on R3 ...
+2026-03-14 03:14:52,908 - src.connection.device_manager - ERROR - Config on R3 failed: 
+
+Pattern not detected: 'system\\-view' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 03:14:52,908 - src.connection.device_manager - ERROR - Failed to enable LLDP on R3
+2026-03-14 03:14:52,909 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2003
+2026-03-14 03:14:53,011 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 03:14:54,403 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R5>
+2026-03-14 03:14:54,403 - src.connection.device_manager - INFO - Successfully connected to R4
+2026-03-14 03:15:04,454 - src.connection.device_manager - ERROR - Command 'display lldp local' on R4 failed: 
+Pattern not detected: '<R5>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 03:15:04,454 - src.connection.device_manager - INFO - Enabling LLDP globally on R4 ...
+2026-03-14 03:15:21,657 - src.connection.device_manager - ERROR - Config on R4 failed: 
+
+Pattern not detected: 'system\\-view' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 03:15:21,657 - src.connection.device_manager - ERROR - Failed to enable LLDP on R4
+2026-03-14 03:15:21,659 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2004
+2026-03-14 03:15:21,761 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 03:15:22,833 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R3>
+2026-03-14 03:15:22,833 - src.connection.device_manager - INFO - Successfully connected to R5
+2026-03-14 03:15:33,213 - src.connection.device_manager - ERROR - Command 'display lldp local' on R5 failed: 
+Pattern not detected: '<R3>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 03:15:33,213 - src.connection.device_manager - INFO - Enabling LLDP globally on R5 ...
+2026-03-14 03:15:50,419 - src.connection.device_manager - ERROR - Config on R5 failed: 
+
+Pattern not detected: 'system\\-view' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 03:15:50,419 - src.connection.device_manager - ERROR - Failed to enable LLDP on R5
+2026-03-14 03:15:59,510 - src.topology.builder - INFO - Topology saved to ./data\topology.json
+2026-03-14 03:16:50,005 - src.connection.device_manager - ERROR - Command 'display current-configuration' on R1 failed: 
+Pattern not detected: '<R4>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 03:17:06,185 - src.connection.device_manager - ERROR - Command 'dir' on R1 failed: 
+
+Pattern not detected: 'dir' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-03-14 03:17:45,777 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 03:17:45,778 - openai._base_client - INFO - Retrying request to /chat/completions in 0.466228 seconds
+2026-03-14 03:17:46,546 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 03:17:46,547 - openai._base_client - INFO - Retrying request to /chat/completions in 0.890626 seconds
+2026-03-14 03:17:47,689 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-14 03:17:47,690 - src.ai.fault_diagnosis - ERROR - Fault diagnosis failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-03-14 11:54:51,327 - src.connection.device_manager - INFO - Attempting RAW Telnet connection to 127.0.0.1:2000
+2026-03-14 11:54:51,430 - src.connection.device_manager - INFO - Sending initial newline to wake up device...
+2026-03-14 11:54:52,591 - src.connection.device_manager - INFO - Device woke up. Current prompt: <R4>
+2026-03-14 11:54:52,591 - src.connection.device_manager - INFO - Successfully connected to R1
+2026-03-14 12:08:26,781 - src.topology.builder - INFO - Topology loaded from ./data\topology.json
+2026-03-14 12:08:34,047 - src.topology.builder - INFO - Topology loaded from ./data\topology.json
+2026-03-14 12:09:06,646 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-03-14 12:09:06,647 - src.ai.intent_parser - ERROR - Intent parsing failed: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****K_cA is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-03-14 12:10:33,073 - src.topology.builder - INFO - Topology loaded from ./data\topology.json
+2026-03-14 12:10:38,274 - src.topology.builder - INFO - Topology loaded from ./data\topology.json
+2026-03-14 12:11:03,418 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 12:11:05,657 - src.ai.intent_parser - INFO - Parsed tasks: [{'device': 'all', 'action': 'show_command', 'parameters': {'command': 'show ip interface brief'}}]
+2026-03-14 12:11:35,552 - src.ai.command_gen - ERROR - LLM command generation failed: 'task'
+2026-03-14 12:11:35,552 - src.executor.config_executor - ERROR - Command generation failed for task on all: {'device': 'all', 'action': 'show_command', 'parameters': {'command': 'show ip interface brief'}}

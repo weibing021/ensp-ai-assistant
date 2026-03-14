@@ -1,0 +1,22 @@
+你是一个网络故障诊断专家。请基于以下信息分析故障原因，并给出修复建议。 
+
+故障现象：{fault_description} 
+
+相关设备输出（JSON格式）： 
+{device_outputs} 
+
+请输出JSON格式，包含： 
+- analysis: 简要分析原因 
+- confidence: 高/中/低 
+- suggestions: 建议的修复步骤列表（自然语言） 
+- auto_fix_commands: 可自动执行的命令列表（需谨慎） 
+
+示例： 
+{{ 
+  "analysis": "R1的G0/0/1接口处于down状态，导致OSPF邻居中断", 
+  "confidence": "高", 
+  "suggestions": ["检查R1的G0/0/1物理连接", "确认接口未shutdown"], 
+  "auto_fix_commands": ["system-view", "interface GigabitEthernet0/0/1", "undo shutdown"] 
+}}
+
+只输出JSON，不要其他内容。

@@ -1,0 +1,221 @@
+
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>display ip routing-table
+Route Flags: R - relay, D - download to fib
+------------------------------------------------------------------------------
+Routing Tables: Public
+         Destinations : 22       Routes : 22       
+
+Destination/Mask    Proto   Pre  Cost      Flags NextHop         Interface
+
+       10.0.0.0/8   IBGP    255  0          RD   10.0.12.1       Serial2/0/0
+       10.0.2.2/32  Direct  0    0           D   127.0.0.1       LoopBack0
+      10.0.12.0/24  Direct  0    0           D   10.0.12.2       Serial2/0/0
+      10.0.12.1/32  Direct  0    0           D   10.0.12.1       Serial2/0/0
+      10.0.12.2/32  Direct  0    0           D   127.0.0.1       Serial2/0/0
+    10.0.12.255/32  Direct  0    0           D   127.0.0.1       Serial2/0/0
+      10.0.23.0/24  Direct  0    0           D   10.0.23.2       Serial2/0/1
+      10.0.23.2/32  Direct  0    0           D   127.0.0.1       Serial2/0/1
+      10.0.23.3/32  Direct  0    0           D   10.0.23.3       Serial2/0/1
+    10.0.23.255/32  Direct  0    0           D   127.0.0.1       Serial2/0/1
+      10.0.25.0/24  Direct  0    0           D   10.0.25.2       GigabitEthernet0/0/0
+      10.0.25.2/32  Direct  0    0           D   127.0.0.1       GigabitEthernet0/0/0
+    10.0.25.255/32  Direct  0    0           D   127.0.0.1       GigabitEthernet0/0/0
+       10.1.3.0/24  EBGP    255  0           D   10.0.23.3       Serial2/0/1
+       10.1.5.0/24  EBGP    255  0           D   10.0.25.5       GigabitEthernet0/0/0
+       10.2.3.0/24  EBGP    255  0           D   10.0.23.3       Serial2/0/1
+       10.2.5.0/24  EBGP    255  0           D   10.0.25.5       GigabitEthernet0/0/0
+       10.3.5.0/24  EBGP    255  0           D   10.0.25.5       GigabitEthernet0/0/0
+      127.0.0.0/8   Direct  0    0           D   127.0.0.1       InLoopBack0
+      127.0.0.1/32  Direct  0    0           D   127.0.0.1       InLoopBack0
+127.255.255.255/32  Direct  0    0           D   127.0.0.1       InLoopBack0
+255.255.255.255/32  Direct  0    0           D   127.0.0.1       InLoopBack0
+
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>display ip interface brief
+*down: administratively down
+^down: standby
+(l): loopback
+(s): spoofing
+The number of interface that is UP in Physical is 5
+The number of interface that is DOWN in Physical is 1
+The number of interface that is UP in Protocol is 5
+The number of interface that is DOWN in Protocol is 1
+
+Interface                         IP Address/Mask      Physical   Protocol  
+GigabitEthernet0/0/0              10.0.25.2/24         up         up        
+GigabitEthernet0/0/1              unassigned           down       down      
+LoopBack0                         10.0.2.2/32          up         up(s)     
+NULL0                             unassigned           up         up(s)     
+Serial2/0/0                       10.0.12.2/24         up         up        
+Serial2/0/1                       10.0.23.2/24         up         up        
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>display lldp local
+System information
+Chassis type   :macAddress 
+Chassis ID     :00e0-fc22-572f
+System name    :R2
+System description  :Huawei AR1220 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.130 (AR1220 V200R003C00) Copyright (C) 2011-2012 Huawei Technologies Co., Ltd
+System capabilities supported   :bridge  
+System capabilities enabled     :bridge  
+LLDP Up time   :2026/3/14 2:26:35
+
+MED system information
+Device class   :Network Connectivity
+(MED inventory information of master board)
+HardwareRev       :AR01SRU1A VER.A
+FirmwareRev       :-
+SoftwareRev       :V200R003C00
+SerialNum         :NA
+Manufacturer name :HUAWEI TECH CO., LTD
+Model name        :NA
+Asset tracking identifier :NA
+
+System configuration
+LLDP Status                     :enabled             (default is disabled)
+LLDP Message Tx Interval        :30                  (default is 30s)     
+LLDP Message Tx Hold Multiplier :4                   (default is 4)       
+  ---- More ----[42D                                          [42DLLDP Refresh Delay              :2                   (default is 2s)      
+  ---- More ----[42D                                          [42DLLDP Tx Delay                   :2                   (default is 2s)      
+  ---- More ----[42D                                          [42DLLDP Notification Interval      :5                   (default is 5s)      
+  ---- More ----[42D                                          [42D
+<R2>ystem-view
+    ^
+Error: Unrecognized command found at '^' position.
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>display interface brief
+PHY: Physical
+*down: administratively down
+(l): loopback
+(s): spoofing
+(b): BFD down
+^down: standby
+(e): ETHOAM down
+(d): Dampening Suppressed
+InUti/OutUti: input utility/output utility
+Interface                   PHY   Protocol InUti OutUti   inErrors  outErrors
+Ethernet0/0/0               down  down        0%     0%          0          0
+Ethernet0/0/1               down  down        0%     0%          0          0
+Ethernet0/0/2               down  down        0%     0%          0          0
+Ethernet0/0/3               down  down        0%     0%          0          0
+Ethernet0/0/4               down  down        0%     0%          0          0
+Ethernet0/0/5               down  down        0%     0%          0          0
+Ethernet0/0/6               down  down        0%     0%          0          0
+Ethernet0/0/7               down  down        0%     0%          0          0
+GigabitEthernet0/0/0        up    up          0%     0%          0          0
+GigabitEthernet0/0/1        down  down        0%     0%          0          0
+LoopBack0                   up    up(s)       0%     0%          0          0
+NULL0                       up    up(s)       0%     0%          0          0
+Serial2/0/0                 up    up          0%     0%          0          0
+Serial2/0/1                 up    up          0%     0%          0          0
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>display ip interface brief
+*down: administratively down
+^down: standby
+(l): loopback
+(s): spoofing
+The number of interface that is UP in Physical is 5
+The number of interface that is DOWN in Physical is 1
+The number of interface that is UP in Protocol is 5
+The number of interface that is DOWN in Protocol is 1
+
+Interface                         IP Address/Mask      Physical   Protocol  
+GigabitEthernet0/0/0              10.0.25.2/24         up         up        
+GigabitEthernet0/0/1              unassigned           down       down      
+LoopBack0                         10.0.2.2/32          up         up(s)     
+NULL0                             unassigned           up         up(s)     
+Serial2/0/0                       10.0.12.2/24         up         up        
+Serial2/0/1                       10.0.23.2/24         up         up        
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>display arp
+IP ADDRESS      MAC ADDRESS     EXPIRE(M) TYPE        INTERFACE   VPN-INSTANCE 
+                                          VLAN/CEVLAN PVC                      
+------------------------------------------------------------------------------
+10.0.25.2       00e0-fc22-572f            I -         GE0/0/0
+10.0.25.5       00e0-fc81-2322  5         D-0         GE0/0/0
+------------------------------------------------------------------------------
+Total:2         Dynamic:1       Static:0     Interface:1    
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>display mac-address
+-------------------------------------------------------------------------------
+MAC Address       VLAN/Bridge             Learned-From               Type      
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Total items displayed = 0 
+
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>display lldp neighbor brief
+Local Intf   Neighbor Dev             Neighbor Intf             Exptime
+GE0/0/0      R5                       GE0/0/0                   114    
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>
+<R2>display current-configuration | include sysname
+ sysname R2
+<R2>
+<R2>

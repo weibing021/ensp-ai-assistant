@@ -1,0 +1,8 @@
+你是一个华为VRP设备配置专家。请根据以下配置任务生成具体的配置命令序列。 
+
+任务描述：{task} 
+
+请以列表形式输出命令，每行一条，从system-view开始（如果需要）。例如： 
+["system-view", "interface GigabitEthernet0/0/1", "ip address 192.168.1.1 255.255.255.0", "quit"] 
+
+只输出命令列表，不要解释。
